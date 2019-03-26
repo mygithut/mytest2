@@ -1,0 +1,442 @@
+body, form {
+	margin:0;
+}
+.STYLE1 {font-size: 12px;color:#316400}
+a:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+a:hover {
+	FONT-SIZE: 12px; COLOR: #7bb141; TEXT-DECORATION: underline
+}
+a {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.tb1{
+	 background-color:#FFFFFF;border-collapse: collapse; font-size: 10pt; color:#316400; FONT-FAMILY: "宋体";
+}
+.tb1 td{
+	padding:1px 0 3px 0;
+}
+.tb3{
+	  font-size: 10pt; FONT-FAMILY: "宋体";
+}
+.tb2{
+	border-collapse: collapse; font-size: 10pt; COLOR: #018701;  FONT-FAMILY: "宋体", "新宋体";
+}
+.textarea {
+	BORDER-RIGHT: #6666ff 1px solid; BORDER-TOP: #6666ff 1px solid; FONT: 10pt "新宋体", "宋体"; BORDER-LEFT: #6666ff 1px solid; COLOR: #6666ff; BORDER-BOTTOM: #6666ff 1px solid; HEIGHT: 30pt; BACKGROUND-COLOR: #ffffff
+}
+.normaltext {
+	FONT-SIZE: 10pt; COLOR: #018701; FONT-FAMILY: "宋体", "新宋体";
+}
+.smalltext {
+	FONT-SIZE: 9pt; COLOR: #018701; FONT-FAMILY: "宋体", "新宋体";
+}
+.button1{
+	 background-image:url("../img/chaxun.gif");  repeat-x center; width: 35px; height: 19px;border-width:0px;
+}
+.button2{
+	background-color:#FFFFFF; background-image:url("images/button.jpg");  repeat-x center; width: 60px; height: 19px;
+}
+.button3{
+	background-color:#FFFFFF; background-image:url("/ftp/pages/images/button.gif");  repeat-x center; width: 84px; height: 22px;border-width:0px;
+}
+.button4{
+	background-color:#FFFFFF; background-image:url("/ftp/pages/images/button3.gif");  repeat-x center; width: 55px; height: 22px;border-width:0px;
+}
+.button5{
+	background-color:#FFFFFF; background-image:url("/ftp/pages/images/button4.gif");  repeat-x center;  width:68px; height: 22px;border-width:0px;
+}
+.button6{
+	background-color:#FFFFFF; background-image:url("../img/button5.gif");  repeat-x center;  width:82px; height: 22px;border-width:0px;
+}
+.button7{
+	background-color:#FFFFFF; background-image:url("../img/button6.gif");  repeat-x center;  width:93px; height: 22px;border-width:0px;
+}
+.button8{
+	background-color:#FFFFFF; background-image:url("../img/button7.gif");  repeat-x center; width:108px; height: 22px;border-width:0px;
+}
+.button9{
+	background-color:#FFFFFF; background-image:url("/ftp/pages/images/button8.gif");  repeat-x center; width:120px; height: 22px;border-width:0px;
+}
+.button10{
+	background-color:#FFFFFF; background-image:url("../img/button9.gif");  repeat-x center;  height: 22px;border-width:0px;
+}
+.button11{
+	background-color:#FFFFFF; background-image:url("../img/button10.gif");  repeat-x center;  height: 22px;border-width:0px;
+}
+.button12{
+	background-color:#FFFFFF; background-image:url("images/button.jpg");  repeat-x center;  height: 22px;border-width:0px;
+}
+.button13{
+	background-color:#FFFFFF; background-image:url("../img/button.gif");  repeat-x center;  height: 22px;border-width:0px;
+}
+.input1  {
+       border:1px   solid   #AEE770;background-color:#F1FAE6;
+} 
+
+.redinput1  {
+       border:2px   solid   #FF0000;;background-color:#F1FAE6;font: #FF0000;
+} 
+.textarea1 {
+       scrollbar-face-color:#AEE770;border-left: 1px solid  #AEE770;border-right: 1px solid #AEE770;border-top: 1px solid #AEE770;border-bottom:1px   solid   #AEE770;
+}
+.a{TEXT-DECORATION:none}a:hover{TEXT-DECORATION:underline}
+.p12_green {  color: #316400; font-size: 12px; line-height: 14pt}
+.p14_green {  font-size: 14px; line-height: 14pt; color: #316400}
+.p12_black {  font-size: 12px; line-height: 14pt; color: #000000}
+.p14_black {  font-size: 14px; line-height: 14pt; color: #000000}
+.p12_green2 {  font-size: 12px; line-height: 14pt; color: #3f7015}
+.table01 {  font-size: 12px; line-height: 14pt; color: #3f7015; border: 1px #AEE770 solid; background-color: #0033FF}
+.table02{
+	width:95%;
+	border-collapse: collapse; 
+	font-size:12px;
+	line-height: 14pt;
+	color: #3f7015;
+	text-align:center;
+	border-top:1px solid #AEE770;
+	border-left:1px solid #AEE770;
+	background-color: #ffffff
+}
+.table02 td{
+	border-collapse: collapse; 
+	line-height:26px;
+	height:26px;
+	border-right:1px solid #AEE770;
+	border-bottom:1px solid #AEE770;
+	background:#ffffff;
+}
+.table02 th{
+	font-weight:normal;
+	background:#d4eea7;
+	border-top:1px solid #fff;
+	border-right:1px solid #9A9994;
+	border-bottom:1px solid #9A9994;
+	line-height:26px;
+	height:26px;
+}
+.table03{
+	width:95%;
+	border-collapse: collapse; 
+	font-size:12px;
+	line-height: 14pt;
+	color: #3f7015;
+	text-align:center;
+	background-color: #F5FFDE
+}
+.table03 td{
+	border-collapse: collapse; 
+	line-height:26px;
+	height:26px;
+	background:#F5FFDE;
+}
+.table03 th{
+	font-weight:normal;
+	background:#d4eea7;
+	border-top:1px solid #fff;
+	border-right:1px solid #9A9994;
+	border-bottom:1px solid #9A9994;
+	line-height:26px;
+	height:26px;
+}
+
+/*menupath toolbar content page .....*/
+
+/* List 页面专用 css, 参考 loanUse_c.jsp menupath 菜单路径  如:对公客户管理>>对公客户概况>>企业单位基本信息*/
+.menupath { 
+	width:100%;
+	height:39px;
+	font: 12px;
+	color:#498700;
+	background:url(../img/input_c61_03.gif);
+	border-collapse: collapse;
+}
+.menupath td {					/*	这里应该是使用子class的*/
+	text-indent:40px;
+	background:url(../img/input_c61_06.gif) no-repeat 20px center;
+}
+/* List 页面专用 css, 参考 loanUse_c.jsp toolbar 按钮 样式 */
+.toolbar {
+	border-collapse: collapse;
+	margin-bottom:3px;
+}
+.toolbar td{
+	font:4px;			/*	font: bold 16.8px;*/
+	color:#498700;
+}
+
+/* List 页面专用 css, 参考 loanUse_c.jsp toolbar 按钮 样式 */
+.toolbar2 {
+	border-collapse: collapse;
+	padding:0;
+}
+.toolbar2 td {
+	height:22px;
+	font: bold 16.8px;
+	color:#498700;
+	padding:0 20px 0 54px;
+}
+
+/* List 页面专用 css, 参考 loanUse_c.jsp content 内容 */
+.content {
+	width:95%;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;
+	background-color:#FFFFFF;
+	border-collapse: collapse;
+	border:1px solid #79B242;
+	margin:0 auto;
+}
+.content th {
+	height:35px;
+	background:url(xim.gif) repeat-x;
+	border:1px solid #79B242;
+	border-top:1px solid #fff;
+}
+.content td {
+	border:1px solid #79B242;
+	height:30px;
+}
+.save{
+	background:url(/ftp/pages/images/save.gif) no-repeat;
+	width:16px; height:16px; border:0 none;
+	}
+.but_01{
+	background:url(/ftp/pages/images/but_2.gif) no-repeat; width:92px; height:24px; border:0 none; color:#000;margin:0 40px;
+	}
+.but_02{
+	background:url(/ftp/pages/images/but_1.gif) no-repeat; width:70px; height:24px; border:0 none; color:#000; margin:0 40px;
+	}
+.page {
+	width:100%;
+	text-align:right;
+	font-size: 12px;
+	color:#316400;
+	border-collapse: collapse;
+	margin-top:5px;
+}
+.page .nodata {
+	text-align:center;
+	font:13.6px;
+	font:bold;
+}
+
+.query_title {
+	width:100%;					/*将依td中的内容自行确定宽度*/
+	height:69px;
+	border-collapse: collapse;
+}
+.query_title td {
+	width:100%;
+	text-align:center;
+	font:bold 17px 宋体;
+	color:#ff9c00;
+	white-space:nowrap;
+	background-repeat:no-repeat;
+	padding-top:87px;
+}
+/*查询框时的表格*/
+.query_frame {
+	width:60%;
+	align:expression(this.align='center');
+	border-collapse: collapse;
+}
+.query_frame td {
+	padding:0;
+}
+/*查询框时的表格*/
+.query_content {
+	width:100%;
+	font-size: 12px;
+	color:#316400;
+	border-collapse: collapse;
+	margin:18px;0px;0px;0px;
+}
+.query_content td {
+	width:expression(['36%','64%'][this.cellIndex%2]);
+	text-align:expression(['right','left'][this.cellIndex%2]);
+	padding:0px;
+}
+.query_content select {
+	background-color:#F1FAE6;
+}
+.query_content INPUT {
+	text_password_style:expression(this.type=='text'||this.type=='password'?(
+		this.style.border='1px solid #AEE770',
+		this.style.backgroundColor='#F1FAE6')
+	:null);
+}
+.query_content .buttonbar {
+	align:expression(this.align='center');
+	margin:22px 0px 0px 0px;
+}
+
+/*增加或修改时的title*/
+.modify_title {
+	width:auto;					/*将依td中的内容自行确定宽度*/
+	height:69px;
+	align:expression(this.align='center');
+	border-collapse: collapse;
+}
+.modify_title td {
+	font:bold 17px 宋体;
+	color:#ff9c00;
+	white-space:nowrap;
+	text-indent:70px;			/*图片是53px宽*/
+	background:url("/ftp/pages/images/input_c1_03.gif") no-repeat 0px center;
+}
+/*增加或修改时的表格*/
+.modify_content {
+	width:80%;
+	align:expression(this.align='center');
+	font:10pt "宋体";
+	color:#316400;
+	background-color:#FFFFFF;
+	border-collapse: collapse;
+	border:1px solid #79B242;
+}
+.modify_content tr {
+	height:26px;
+	row_style:	expression(this.flag? 0 : (function(row){
+					if (row.rowIndex == 0) {
+						if (row.innerText == '') {
+							var td = row.cells[0];
+							td.height = '19';
+							td.colSpan = '2';
+							td.style.background='url(img/bg_1.gif)';
+						} else {
+							var newrow = document.createElement('<tr></tr>');
+							var newcell = document.createElement('<td></td>');
+							newcell.height = '19';
+							newcell.colSpan = '2';
+							newcell.style.background='url(img/bg_1.gif)';
+							newrow.appendChild(newcell);
+							row.parentNode.insertBefore(newrow, row);
+						}
+					}
+					row.style.backgroundColor = ['#FFFFFF','#EEF2E6'][row.rowIndex%2];
+					var cells = row.cells;
+					if (cells.length == 1) {
+						cells[0].width = '100%';
+						cells[0].align = 'center';
+					} else if (cells.length == 2) {
+						cells[0].width = '36%';
+						cells[1].width = '64%';
+						cells[0].align = 'right';
+						cells[1].align = 'left';
+					}
+					var inputs = row.getElementsByTagName('input');
+					for(var i = 0; i < inputs.length; i++) {
+						var input = inputs[i];
+						if(input.type == 'text' || input.type == 'password') {
+							input.style.border = '1px solid #AEE770';
+						}
+					}
+					row.flag=1;
+				})(this));
+}
+.modify_content th {
+	height:34px;
+	background:#d4eea7;
+	border:1px solid #79B242;
+	padding:2px;
+}
+.modify_content td {
+	border:1px solid #79B243;
+	padding:2px;
+}
+.modify_content select {
+	border:1px   solid   #AEE770;
+	background-color:#F1FAE6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 登陆按扭 */
+.login_input{
+border:medium none;
+background:url(../img/login.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 确定按扭 */
+.okey_input{
+border:medium none;
+background:url(../img/input_c1_19.gif) no-repeat;
+width:79px;
+height:27px;
+}
+
+/* 保存按扭 */
+.submit_input{
+border:medium none;
+background:url(/ftp/pages/images/save.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 新增按扭 */
+.add_input{
+border:medium none;
+background:url(../img/input_c1_21.gif) no-repeat;
+width:77px;
+height:27px;
+}
+
+/* 查询按扭 */
+.search_input{
+border:medium none;
+background:url(../img/search.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 返回按扭 */
+.comeback_input{
+border:medium none;
+background:url(/ftp/pages/images/back.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 重置按扭 */
+.reset_input{
+border:medium none;
+background:url(../img/reset.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 关闭按扭 */
+.close_input{
+border:medium none;
+background:url(../img/close.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 删除按扭 */
+.delete_input{
+border:medium none;
+background:url(../img/del.gif) no-repeat;
+width:76px;
+height:24px;
+}

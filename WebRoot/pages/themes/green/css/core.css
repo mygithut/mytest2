@@ -1,0 +1,415 @@
+*,body,.body,.text,.commonText,.textarea,.table th,.table td,.table1 th,.table1 td,.button,.money,moneyText,.rate,.number,.readonly,.disabled,.onclicked td,.mouseOver td,.DateText,.layoutTb td,.sumTb,.trBg{
+	font-family: "宋体", "Arial", "Helvetica";
+	font-size: 12px;
+}
+form {
+	margin: 0px;;
+	padding: 0px;
+}
+
+iframe {
+	border-width: 0px;
+	border-style: none;
+	border-color: inherit;
+	border-image: none;
+}
+
+a:visited {
+	color: blue;
+}
+a:active {
+	color: blue;
+}
+a:hover {
+	color: blue;
+}
+a {
+	color: #D55B5B;
+}
+.hidden{
+	display: none;
+}
+.iframe{
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid silver;
+}
+.DIV_PAD{		
+	width: 10px;
+}
+.overflowHidden{
+	overflow: hidden;
+}
+.IFM_BODY{		
+	padding: 0px;
+	margin: 0px;
+	overflow-y:auto;
+	overflow-x:auto;
+	scrollbar-face-color: #DAECC8;
+}
+.DateImg{
+	cursor: pointer;
+	background-repeat:no-repeat; 
+	width: 20px;
+	height: 20px;
+	background-position-y: center;
+	background-image:url(../img/sel_date.gif);
+}
+.DateText{}
+.HR {
+	height: 1px;
+	color: #308040;
+}
+.TEXT,.commonText,.TEXTAREA,.READONLY,.DISABLED,.moneyText,.RATE,.NUMBER,.DateText{
+	border-width: 1px;
+	border-style: solid;
+	background: transparent;
+	/*background-color: #EFF5E9;*/
+	border-color: #888888;
+	width: 80px;
+}
+.noBorder {
+	border: none;
+}
+.border {
+	border: 1px solid silver;
+}
+.hand {
+	cursor: pointer;
+}
+.table {
+	margin-top: 0px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid silver;
+	border-top: 1px solid silver;
+	empty-cells: show;
+	/* border-collapse: separate !important; */
+	border-collapse: collapse;
+}
+
+/*修正时间选择控件图片按钮在单元格内不能垂直居中的问题*/
+.table td img[class="ui-datepicker-trigger"],input+img[class="ui-datepicker-trigger"] {border:0; vertical-align: middle; margin-left: 2px;}
+.table td input {vertical-align: middle;}
+
+.table tr{
+	background-color:expression((this.sectionRowIndex%2==0)?"#ffffff":"#f7f7f7")
+}
+
+.tr-bg1 {background-color: #ffffff;}
+.tr-bg2 {background-color: #f7f7f7;}
+
+.table th ,.table .std{
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	height: 23px;
+	background-image:url(../img/bg1.png);
+    background-repeat:repeat-x;
+    background-color:#C5C5C5; 
+	color: #000000;
+	white-space: nowrap;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 2px;
+}
+
+.table th.classtd{
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	height: 22px;
+	background-image:url(../img/wbg.gif);
+    background-repeat:repeat-x;
+    background-color:#C5C5C5; 
+	color: #000000;
+	white-space: nowrap;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 2px;
+}
+.table thtitle{
+	background-image:url(/fcpg/fcpg/images/baobiao_title.jpg);
+    background-repeat:repeat-x;
+    height:350px;
+}
+.table td {
+	height: 22px;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 1px;
+}
+.table th a{
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.alertTd{
+	color:#99CC99;
+}
+.alertTd-red{
+	color:#FF0000;
+}
+.alertTd-black{
+	color:#000000;
+}
+.alertTd-gray{
+	color:#808080;
+}
+.alertTr{
+	background-color:#FFFFCC;
+}
+td{
+	padding: 1px;
+}
+.TITLE {
+	font-family: "verdana";
+	font-size: 13px;
+	font-weight: bold;
+	color: #336600;
+}
+.button {
+	color: #ffe0de;
+	background-image:url(../img/red.png);
+	border: 1px solid red;
+	padding-top: 1px;
+	height: 23px;
+	cursor: pointer;
+	white-space: nowrap;
+	-webkit-user-select: none;
+}
+.button1 {
+	color: #548946;
+	background-image:url(../img/button5_bk.gif);
+	border: 1px solid #66CC33;
+	padding-top: 1px;
+	height: 19px;
+	cursor: pointer;
+}
+.LinkButton{
+	background-color: #DAECC8;
+	border: 1px outset #999999;
+	height: 19px;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #06482a;
+}
+.LinkButton:visited {
+	color: #06482a;
+}
+.LinkButton:active {
+	color: #06482a;
+}
+.LinkButton:hover {
+	color: #66CC00;
+}
+.MONEY,.moneyText,.RATE{
+	font: bold "verdana";
+}
+.TEXT,.commonText,.moneyText,.RATE,.NUMBER,.READONLY,.DISABLED{
+	width: 120px;
+}
+.MONEY,.moneyText,.RATE,.NUMBER{
+	text-align: right;
+}
+.READONLY,.DISABLED{
+	background-color: #DFDFDF;
+}
+.mouseOver,.mouseOver TD{
+	cursor: pointer;
+	background-color:#ffffcc;
+}
+.ERRORMSG{
+	color: red;
+}
+.Tips {
+   font-family: "宋体";
+   font-size: 12px;
+   color: #339966;
+}
+.PlusImg,.MinusImg{
+	background-repeat:no-repeat; 
+	width: 16;
+	background-position-y: center;
+}
+.PlusImg{
+	background-image:url(../img/plus.gif);
+}
+.MinusImg{
+	background-image:url(../img/minus.gif);
+}
+div#lockedDiv{
+	overflow: auto;
+	position:absolute;
+	padding:0;
+	margin:0;
+	width: expression(document.body.offsetWidth-16);
+	height: expression(document.body.offsetHeight-10-document.getElementById("lockedDiv").offsetTop);
+}
+div#lockedDiv table th,div#lockedDiv table .th{
+	position:relative;
+	top: expression(document.getElementById("lockedDiv").scrollTop);
+	z-index: 20;
+}
+div#lockedDiv table{
+	border-top: 0px solid silver;
+	margin:0;
+}
+.layoutTb{
+	border: none;
+}
+.layoutTb td{
+	padding: 1px;
+}
+.layoutTb .button-spacing{
+	margin-right:40px
+}
+.table .layoutTb td{
+	border: none;
+	padding: 0px;
+}
+.sumTb{
+	background-color: #ECFADC;
+}
+.trBg {
+	background-color: #DDE3EA;
+}
+.repeatX {
+	BACKGROUND-REPEAT: repeat-x
+}
+.repeatY {
+	BACKGROUND-REPEAT: repeat-y
+}
+.noRepeat {
+	BACKGROUND-REPEAT: no-repeat
+}
+.cusbg {
+	background-color: #FEF4E0;           
+}
+.cusbg2 {
+	background-color: #ECFADC;            
+}
+.cusbg3 {
+	background-color: #FFF0FF;			 
+}
+.cusbg4 {
+	background-color: #E4E4E4;            
+}
+.AsBankVolReplace {
+    border-collapse:collapse;  
+    DISPLAY: block;
+    LEFT: 700px;  
+    POSITION: absolute; 
+    TOP: 5px; 
+    BACKGROUND-COLOR: #c0c0c0 ;
+	BORDER-RIGHT: #66CC00 1px solid; 
+	BORDER-TOP: #66CC00 1px solid; 
+	BORDER-LEFT: #66CC00 1px solid; 
+	BORDER-BOTTOM: #66CC00 1px solid;
+	Z-INDEX: 100;
+}
+.AsBankVolReplace td {
+    border-top: 1px solid #66CC00;       
+    border-left: 1px solid #66CC00;     
+    border-right: 1px solid #66CC00;      
+    border-bottom: 1px solid #66CC00;   
+    padding: 0;  
+    BACKGROUND-COLOR: #66CC00;
+}
+
+.AsBankVolReplace td1 {
+    border-top: 1px solid #66CC00;     
+    border-left: 1px solid #66CC00;       
+    border-right: 1px solid #66CC00;      
+    border-bottom: 1px solid #66CC00;   
+    padding: 0;  
+    BACKGROUND-COLOR: #006699;
+}
+
+.AsBankVolReplaceTd {
+    border-top: 1px solid #66CC00;     
+    border-left: 1px solid #66CC00;       
+    border-right: 1px solid #66CC00;      
+    border-bottom: 1px solid #66CC00;   
+    padding: 0;  
+    BACKGROUND-COLOR: #66CC00;
+}
+.sec1 {
+	background-color: #dedede;
+	cursor: pointer;
+	color: #000000;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid #FFFFFF;
+	line-height: 150%;
+	padding: 2px;
+}
+.sec2 {
+	background-color: #DFEDFA;
+	cursor: pointer;
+	color: #00509A;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid gray;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+.EditCell_TextBox {
+	width: 90%;
+	border:1px solid #0099CC;
+}
+.EditCell_DropDownList {
+	width: 90%;
+}
+.td0 {
+    height: 22px;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 1px;
+}
+.td1 {
+    height: 22px;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 1px;
+    background:url(images/green.gif) no-repeat center;
+}
+.td2 {
+    height: 22px;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 1px;
+    background:url(images/yellow.gif) no-repeat center;
+}
+.td3 {
+    height: 22px;
+	border-left: 1px solid silver;
+	border-top: 1px solid silver;
+	padding: 1px;
+    background:url(images/red.gif) no-repeat center;
+}
+.table1 {
+	border-bottom: 1px solid #7D7D7D;
+	border-right: 1px solid #7D7D7D;
+	border-top: 1px solid #7D7D7D;
+	empty-cells: show;
+	border-collapse: separate !important;
+	border-collapse: collapse;
+}
+.table1 td {
+	height: 25px;
+	border-left: 1px solid #7D7D7D;
+	border-top: 1px solid #7D7D7D;
+	padding: 1px;
+}
+
+/**表单元素统一样式**/
+.input-text,input[type="text"],input[type="password"] {padding: 2px 2px; border: 1px solid #9E9E9E}
+form select,table select {padding:2px 0;}

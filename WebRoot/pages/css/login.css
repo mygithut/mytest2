@@ -1,0 +1,36 @@
+body{margin:0; padding:0; background:#d4d4d4 url(../../images/login/login_bg.jpg) no-repeat center top; font-size:12px;}
+
+input{
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input_box{width:600px; height:270px; margin:280px auto auto auto;}
+
+.input{margin-left:330px; margin-bottom:20px;}
+
+.input input{border:0; background:none; cursor:text;height:45px;}
+
+.input .user_name{margin-top:55px; width:250px;line-height:45px}
+
+.input .password{margin-top:10px; width:250px;line-height:45px}
+
+.input img{position:relative; left:0; top:10px;}
+
+.nav_box{margin-left:300px;}

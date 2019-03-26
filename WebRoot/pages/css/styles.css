@@ -1,0 +1,36 @@
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+.p14 {
+	FONT-SIZE: 14px
+}
+A:link {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0033ff; TEXT-DECORATION: underline
+}
+A.p1:link {
+	COLOR: #000000
+}
+A.p1:visited {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A.p1:active {
+	TEXT-DECORATION: none
+}
+A.p1:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.eng {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt
+}
+.pred {
+	COLOR: #ff3300; FONT-SIZE: 14px
+}

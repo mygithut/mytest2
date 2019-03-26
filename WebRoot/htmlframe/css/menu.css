@@ -1,0 +1,188 @@
+/*
+ * CSS Expandable Menu
+ * @author: Francisco Neves
+ */ /** Reset */
+* {
+	font-family: "museo500", "Arial";
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+}
+
+/**
+ *  START FREEBIE STYLES
+ */ /*! Freebie Skelet */
+ul.expmenu {
+	width: 224px;
+}
+
+ul.expmenu * {
+	list-style: none;
+}
+
+ul.expmenu>li>div.header {
+	padding: 10px !important;
+	padding: 5px;
+}
+
+ul.expmenu>li:last-child>div.header {
+	border-bottom: none;
+}
+
+ul.expmenu>li ul li {
+	font-size: 12px;
+	background-color: #Fcf3f3;
+	padding: 8px !important;
+	padding: 4px;
+	border-bottom: 1px solid #F5D8D8;
+	border-top: 1px solid #fff;
+	color: #727272;
+	/*text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);*/
+}
+
+ul.expmenu>li ul li:last-child {
+	border-bottom: none;
+}
+
+ul.expmenu>li ul li.selected {
+	color: white;
+	background: #df9492;
+}
+
+ul.expmenu div.header {
+	color: #B71820;
+	font-weight: bold;
+	font-size: 14px;
+	background-image: url(../images/item_bg.jpg);
+}
+
+/**margin-top:-25px;前面带*的只在IE7下适用*/
+ul.expmenu>li>div.header>.label {
+	padding-left: 12px !important;
+	padding-left: 6px;
+	background: no-repeat;
+}
+
+ul.expmenu>li>div.header>.arrow {
+	display: inline;
+	width: 16px;
+	height: 16px;
+	margin-top: 0px; *
+	margin-top: -25px; *
+	margin-right: 10px;
+	background: no-repeat center;
+	float: right;
+}
+
+ul.expmenu>li>div.header>.arrow.up {
+	background-image: url(../images/arrow_u.png);
+}
+
+ul.expmenu>li>div.header>.arrow.down {
+	background-image: url(../images/arrow_d.png);
+}
+
+ul.expmenu>li>ul li>.menu_li {
+	padding-left: 12px !important;
+	padding-left: 6px;
+	background: no-repeat;
+}
+
+ul.expmenu>li>ul li>.arrow {
+	display: block;
+	margin-left: 5px; *
+	margin-left: 5px;
+	_margin-left: 2.5px;
+	width: 16px;
+	height: 16px;
+	background: no-repeat center;
+	float: left;
+}
+
+ul.expmenu>li>ul li>.arrow.left {
+	background-image: url(../images/arrow_l.gif);
+}
+
+/* Mouse Events */
+ul.expmenu div.header:hover {
+	cursor: pointer;
+}
+
+ul.expmenu>li ul li:hover {
+	color: white;
+	background: #E5B4B0;
+	cursor: pointer;
+}
+ul.expmenu>li ul li.selected:hover {
+	color: white;
+	background: #df9492;
+	cursor: pointer;
+}
+ul.expmenu>li ul li:not (.selected ):active {
+	color: white;
+	background: #84B1E1; /* Old browsers */
+	cursor: pointer;
+}
+
+/**
+ *  END FREEBIE STYLES
+ */ /**
+ *	Not important styles
+ */
+body {
+	/*background: url(../images/arrow_d.png) no-repeat;
+	background: #70bee4;  Old browsers */
+	/* background:url(../images/left.png); */
+	font-family: "museo500";
+	/*padding-top: 5px !important;
+	padding-top: 2.5px;
+	background-color: #F4DFDE;*/
+}
+
+ul#pagination-freebie {
+	display: table;
+	padding-right: 20px !important;
+	padding-right: 10px;
+	margin: 20px auto;
+	list-style: none;
+}
+
+ul#pagination-freebie:last-child {
+	padding-right: 0;
+}
+
+ul#pagination-freebie li {
+	float: left;
+	margin-bottom: 20px
+}
+
+ul#pagination-freebie li:last-child {
+	margin-right: 0;
+}
+
+div#text {
+	text-align: center;
+	font-size: 48px;
+	width: 610px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-top: 80px;
+}
+
+div#smalltext {
+	text-align: center;
+	font-size: 15px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+div#content {
+	display: table;
+	margin: 0 auto;
+}

@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FTP-bb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list id="8aa9fc95-a80a-4c7f-b88f-e655e39a9bda" name="exploded" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FTP_bb_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FTP_bb_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FTP_bb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FTP_bb_war_exploded.xml" />
+    </list>
+    <list default="true" readonly="true" id="0fd566d2-8748-4384-b88b-68acbca317ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/Common_yield.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/chaifangtongye.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/ckllbl.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/cunfangtongye.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/cyzdqtz.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/emp.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/jyxjrfz.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/jyxjrzc.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/kgcsjrzc.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/nhg.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/txfz.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/tycf.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/tycr.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/doc/zhg.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwh.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhDetail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhImport.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhAdd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZWHAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/entity/Ftp1CommonYield.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/entity/Ftp1CommonYield.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/bzjbl.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/ccbzj.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/cf.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/cj.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/ftp_result.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/hg.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/invest.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/xqmm.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/xzyyhjk.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebRoot/doc/数据管理维护说明.doc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/UploadExcelAction.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/UploadExcelAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/GZWHAction.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/GZWHAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/SHIBORWHAction.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/SHIBORWHAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/dao/FtpStockDAO.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/dhcc/ftp/dao/FtpStockDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Bank_bills_rate.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Bank_bills_rate.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Bond_yield.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Bond_yield.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Pledge_repo_rate.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Pledge_repo_rate.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Rate_spread.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Rate_spread.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Shibor.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Shibor.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/doc/Stock_yield.xls" afterPath="$PROJECT_DIR$/WebRoot/doc/Stock_yield.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/dhcc-framework-context/dhcc-controller-ftp.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/dhcc-framework-context/dhcc-controller-ftp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/dhcc-framework-context/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/dhcc-framework-context/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/js/ajaxupload.js" afterPath="$PROJECT_DIR$/WebRoot/pages/js/ajaxupload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhDetail.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhImport.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhImport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhList.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwhImport.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwhImport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhDetail.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhImport.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhImport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhList.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhDetail.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhDetail.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhImport.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhImport.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhList.jsp" afterPath="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dhcc-framework-context/dhcc-controller-ftp.xml" afterPath="$PROJECT_DIR$/resources/dhcc-framework-context/dhcc-controller-ftp.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/dhcc-framework-context/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/resources/dhcc-framework-context/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/action/UploadExcelAction.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/UploadExcelAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/GZWHAction.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/GZWHAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/SHIBORWHAction.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/SHIBORWHAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/bo/ReportBbBO.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/bo/ReportBbBO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dhcc/ftp/dao/FtpStockDAO.java" afterPath="$PROJECT_DIR$/src/com/dhcc/ftp/dao/FtpStockDAO.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/WebRoot/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/air/samples/tasks/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="shiborwhImport.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhImport.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YGZHGLJGCXAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLJGCXAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="108" column="53" lean-forward="false" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YGZHGLAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LrmUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/util/LrmUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportBbBO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/bo/ReportBbBO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3214">
+              <caret line="4065" column="23" lean-forward="false" selection-start-line="4065" selection-start-column="23" selection-end-line="4065" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FtpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/util/FtpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="1949" column="25" lean-forward="false" selection-start-line="1949" selection-start-column="25" selection-end-line="1949" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportBbAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportBbAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="71" column="72" lean-forward="true" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tableList</find>
+      <find>定价</find>
+      <find>insert_s</find>
+      <find>员工账户关联</find>
+      <find>save</find>
+      <find>console.log</find>
+      <find>Fzftplr</find>
+      <find>executorService</find>
+      <find>before</find>
+      <find>sylqx</find>
+      <find>ldck</find>
+      <find>getme</find>
+      <find>left_bg</find>
+      <find>jggtxxfcplrmxbReport</find>
+      <find>manageLvl.equals(&quot;3&quot;)</find>
+      <find>编码转换前</find>
+      <find>hkzq</find>
+      <find>990px</find>
+      <find>compute_result</find>
+      <find>new String(assessScopeText.getBytes(&quot;ISO-8859-1&quot;),&quot;UTF-8&quot;)</find>
+      <find>getBytes(&quot;ISO-8859-1&quot;)</find>
+      <find>iso</find>
+      <find>qhsyjglrhzbReport</find>
+      <find>hkTerm</find>
+      <find>ClientExcelFile</find>
+      <find>ClientExcelFileFileName</find>
+      <find>extension</find>
+      <find>ShiborTerm</find>
+      <find>finacialTerm</find>
+      <find>stockTerm</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>FTP</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGXXWHAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLJGCXAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/xtgl/TelMstAction.java" />
+        <option value="$PROJECT_DIR$/resources/dhcc-framework-context/dhcc-lrm-dataSource.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/YGXXWHh.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/YGXXWHList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/qxppywmndj_result_error.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/qxppywmndj_result_success.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/qxppywmndj_result.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/ssbb/ReportSfbAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/QxppywmndjAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportBbAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/qxppywmndj_list.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/qxppywmndj.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/bo/UL04BO.java" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/trctlunderorg1.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorg1.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorg.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorg2.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorg3.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorg_qxppywmndj.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/trctlunderorgShowRoot.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/treeforbrnochange.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ext-2.0.2/myjs/tlrctlupforaddcust.js" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jxl.jar!/jxl/Workbook.class" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/UploadExcelAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/js/ajaxupload.js" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/SHIBORWHAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YHPJLLAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/GZWHAction.java" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.java" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwh.jsp" />
+        <option value="$PROJECT_DIR$/resources/dhcc-framework-context/dhcc-controller-ftp.xml" />
+        <option value="$PROJECT_DIR$/resources/dhcc-framework-context/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwh.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/dao/FtpStockDAO.java" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwhDetail.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/lib/dwr-2.0RC1.jar!/org/directwebremoting/util.js" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhDetail.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhDetail.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhList.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhImport.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhImport.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhImport.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhImport.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dhcc/ftp/bo/ReportBbBO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
+    <option name="width" value="640" />
+    <option name="height" value="350" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_bb_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_bb_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="FTP_bb_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="ExcelFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FTP-HN-N" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FTP-HN-N" type="462c0819:PsiDirectoryNode" />
+              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebRoot/WEB-INF/lib/portal-kernel.jar!/" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15820643" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="repo&#9;PSI&#9;JAVA://com.dhcc.ftp.action.tjbb.ReportBbAction&#10;rep&#9;PSI&#9;JAVA://com.dhcc.ftp.bo.ReportBbBO&#10;ygzh&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/src/com/dhcc/ftp/action/sjgl/YGZHGLAction.java&#10;up&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/src/com/dhcc/ftp/action/UploadExcelAction.java&#10;shi&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/src/com/dhcc/ftp/action/sjgl/SHIBORWHAction.java&#10;dhcc&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/resources/dhcc-framework-context/dhcc-controller-ftp.xml&#10;gz&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/src/com/dhcc/ftp/action/sjgl/GZWHAction.java&#10;shib&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/WebRoot/pages/sjgl/shiborwh.jsp&#10;uploade&#9;PSI&#9;JAVA://com.dhcc.ftp.action.UploadExcelAction&#10;ajaxupload&#9;FILE&#9;file://C:/Users/Administrator/ideaProject/FTP-HN-N/WebRoot/pages/js/ajaxupload.js&#10;UL06&#9;PSI&#9;JAVA://com.dhcc.ftp.action.UL06Action&#10;ul0&#9;PSI&#9;JAVA://com.dhcc.ftp.action.UL04Action&#10;ygxxw&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/sjgl/YGXXWHh.jsp&#10;trctlunderorg1&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/js/trctlunderorg1.js&#10;ygz&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/sjgl/ygzhgljgcxSearch.jsp&#10;ygx&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/sjgl/YGXXWHList.jsp&#10;tr&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/js/trctlunderorg1.js&#10;qxppywmndj_list.jsp&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_list.jsp&#10;Repo&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/tjbb/ReportBbAction.java&#10;re&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/tjbb/ReportAction.java&#10;reportBb_qhsyjglrhzb_list&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/tjbb/reportBb_qhsyjglrhzb_list.jsp&#10;q&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj.jsp&#10;ywm&#9;PSI&#9;JAVA://com.dhcc.ftp.action.QxppywmndjAction&#10;qxppywmndj_list&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_list.jsp&#10;yw&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_result_success.jsp&#10;qxppywmndj_result_error&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_result_error.jsp&#10;qxppywmndj_result_success&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_result_success.jsp&#10;qxppywmndj_result_success.jsp&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_result_success.jsp&#10;qxppywmndj_result&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj_result.jsp&#10;ul06Save.jsp&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/ul06Save.jsp&#10;ul06Result.jsp&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/ul06Result.jsp&#10;ywmnd&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/qxppywmndj.jsp&#10;reportBb_jgywtxlrhzb_list&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/tjbb/reportBb_jgywtxlrhzb_list.jsp&#10;telms&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/TelMstAction.java&#10;tel&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/TelMstAction.java&#10;Co&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/util/CommonFunctions.java&#10;yg&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/sjgl/YGXXWHAction.java&#10;comm&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/util/CommonFunctions.java&#10;FtpEmpInfo&#9;PSI&#9;JAVA://com.dhcc.ftp.action.sjgl.YGZHGLAction#ftpEmpInfo&#10;emp&#9;PSI&#9;JAVA://com.dhcc.ftp.entity.FtpEmpInfo&#10;ftpe&#9;PSI&#9;JAVA://com.dhcc.ftp.entity.FtpEmpAccRel&#10;report&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/tjbb/ReportBbAction.java&#10;qhsyjg&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/tjbb/reportBb_qhsyjglrpmb.jsp&#10;brmst&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/BrMstAction.java&#10;brnos&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/xtgl/brnoSearch.jsp&#10;brnol&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/xtgl/brnoList.jsp&#10;br&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/WebRoot/pages/xtgl/brnoAdd.jsp&#10;brm&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/BrMstAction.java&#10;telM&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/TelMstAction.java&#10;te&#9;FILE&#9;file://D:/Users/Administrator/Workspaces/MyEclipse 8.5/FTP-HN-N/src/com/dhcc/ftp/action/xtgl/TelMstAction.java" />
+    <property name="GO_FMT" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\ideaProject\FTP-HN-N\WebRoot\pages\sjgl" />
+      <recent name="C:\Users\Administrator\ideaProject\FTP-HN-N\src\com\dhcc\ftp\entity" />
+      <recent name="C:\Users\Administrator\ideaProject\FTP-HN-N\WebRoot\doc" />
+      <recent name="C:\Users\Administrator\ideaProject\FTP-HN-N\src\com\dhcc\ftp\action\sjgl" />
+      <recent name="D:\Users\Administrator\Workspaces\MyEclipse 8.5\FTP-HN-N\WebRoot\WEB-INF\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ftp">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ftp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Xms1024m -Xmx1024m" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="FTP-bb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ftp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_FTP-bb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53093" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="53094" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FTP-bb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N\.idea" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\ideaProject\FTP-HN-N" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd566d2-8748-4384-b88b-68acbca317ed" name="Default" comment="" />
+      <changelist id="8aa9fc95-a80a-4c7f-b88f-e655e39a9bda" name="exploded" comment="" />
+      <created>1545702762197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545702762197</updated>
+      <workItem from="1545702764916" duration="6615000" />
+      <workItem from="1545709962022" duration="21895000" />
+      <workItem from="1545787791397" duration="21993000" />
+      <workItem from="1545872151841" duration="22512000" />
+      <workItem from="1545960349927" duration="22000" />
+      <workItem from="1545961486475" duration="10970000" />
+      <workItem from="1546051388251" duration="14000" />
+      <workItem from="1546057355652" duration="8024000" />
+      <workItem from="1546071815184" duration="5236000" />
+      <workItem from="1546142830821" duration="28000" />
+      <workItem from="1546322328963" duration="201000" />
+      <workItem from="1546390493435" duration="13584000" />
+      <workItem from="1546477240530" duration="23768000" />
+      <workItem from="1546563646015" duration="13477000" />
+      <workItem from="1546585949748" duration="8931000" />
+      <workItem from="1546665965315" duration="177000" />
+      <workItem from="1546824028132" duration="10096000" />
+      <workItem from="1546849890634" duration="4479000" />
+      <workItem from="1546857383601" duration="581000" />
+      <workItem from="1546909086262" duration="3732000" />
+      <workItem from="1546927027723" duration="7991000" />
+      <workItem from="1546994978634" duration="73000" />
+      <workItem from="1546996564498" duration="1414000" />
+      <workItem from="1547005344959" duration="9406000" />
+      <workItem from="1547018771793" duration="505000" />
+      <workItem from="1547019303079" duration="8429000" />
+      <workItem from="1547091796129" duration="174000" />
+      <workItem from="1547097520634" duration="184000" />
+      <workItem from="1547098061226" duration="10000" />
+      <workItem from="1547100635793" duration="3495000" />
+      <workItem from="1547170700018" duration="12987000" />
+      <workItem from="1547185495109" duration="1973000" />
+      <workItem from="1547195528490" duration="88000" />
+      <workItem from="1547199964136" duration="1159000" />
+      <workItem from="1547427010476" duration="104000" />
+      <workItem from="1547455750171" duration="2803000" />
+      <workItem from="1547514371287" duration="5583000" />
+      <workItem from="1547522780552" duration="274000" />
+      <workItem from="1547530189335" duration="2455000" />
+      <workItem from="1547533564189" duration="1202000" />
+      <workItem from="1547542044831" duration="2626000" />
+      <workItem from="1547600615833" duration="5400000" />
+      <workItem from="1547627101380" duration="2566000" />
+      <workItem from="1547687207067" duration="7909000" />
+      <workItem from="1547772850014" duration="599000" />
+      <workItem from="1548053208760" duration="4248000" />
+      <workItem from="1548061923542" duration="842000" />
+      <workItem from="1548063316361" duration="511000" />
+      <workItem from="1548118148775" duration="100000" />
+      <workItem from="1548217176239" duration="11126000" />
+      <workItem from="1548230788139" duration="2117000" />
+      <workItem from="1548298053674" duration="117000" />
+      <workItem from="1548312924048" duration="1747000" />
+      <workItem from="1548378868731" duration="6537000" />
+      <workItem from="1548405117870" duration="1679000" />
+      <workItem from="1548464554251" duration="240000" />
+      <workItem from="1548664494835" duration="681000" />
+      <workItem from="1548833309714" duration="224000" />
+      <workItem from="1548853878291" duration="601000" />
+      <workItem from="1548855543019" duration="419000" />
+      <workItem from="1549936162236" duration="595000" />
+      <workItem from="1550020843009" duration="604000" />
+      <workItem from="1550030830284" duration="3320000" />
+      <workItem from="1550039618452" duration="7392000" />
+      <workItem from="1550111291181" duration="79000" />
+      <workItem from="1550566915885" duration="1489000" />
+      <workItem from="1550569007302" duration="73000" />
+      <workItem from="1550623776328" duration="68000" />
+      <workItem from="1550623987499" duration="47000" />
+      <workItem from="1550640221613" duration="6489000" />
+      <workItem from="1550648535350" duration="7621000" />
+      <workItem from="1550710152745" duration="1996000" />
+      <workItem from="1550712841762" duration="280000" />
+      <workItem from="1550730925231" duration="2593000" />
+      <workItem from="1552018858390" duration="11908000" />
+      <workItem from="1552034413280" duration="21000" />
+      <workItem from="1552034453941" duration="2942000" />
+      <workItem from="1552096904221" duration="6707000" />
+      <workItem from="1552105848060" duration="30000" />
+      <workItem from="1552266468350" duration="2338000" />
+      <workItem from="1552363868810" duration="1608000" />
+      <workItem from="1552368577342" duration="1302000" />
+      <workItem from="1552371504386" duration="59000" />
+      <workItem from="1552449309539" duration="9860000" />
+      <workItem from="1552462462264" duration="741000" />
+      <workItem from="1552876752855" duration="13328000" />
+      <workItem from="1552894924585" duration="1414000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1545794851753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545794851753</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1545815070551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545815070551</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1545816827806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545816827806</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1545885670069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545885670069</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1546418361881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546418361881</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1546418395423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546418395423</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1546424658267</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546424658267</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1546505618353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505618353</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1546507343913</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546507343913</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1546577878357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546577878357</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1546588342181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546588342181</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1546853091457</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546853091458</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1546853596533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546853596533</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1546931785174</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546931785174</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1546996641677</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546996641677</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1546996677852</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546996677852</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1547014847048</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547014847048</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1547022719753</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547022719753</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1547025878647</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547025878647</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1547027306474</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547027306474</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1547103361716</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547103361716</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1547103446972</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547103446972</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1547185583784</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547185583784</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1547186560110</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547186560111</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1547518197659</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547518197659</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1547532292258</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547532292258</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1547532416248</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1547532416248</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1547533830431</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547533830431</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1547543779577</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543779577</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1547601721843</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547601721843</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1547604759662</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547604759662</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1547627955660</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547627955660</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1547688459829</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1547688459829</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1547688786819</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1547688786819</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1547697776719</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1547697776719</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1548054381845</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1548054381845</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1548057215347</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1548057215347</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1548057321258</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1548057321258</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1548062501029</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1548062501029</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1548062537938</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1548062537938</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1548229128320</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1548229128321</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1548229694783</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1548229694783</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1548232011338</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1548232011338</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1548384436640</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1548384436640</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1548385259727</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1548385259727</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1550046554320</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1550046554320</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1550046567090</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1550046567090</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="371837000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43897218" sideWeight="0.51492536" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83511776" sideWeight="0.48827294" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42967033" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7237687" sideWeight="0.48507464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42505354" sideWeight="0.4914712" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42184153" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5648352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9710921" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38543898" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20149253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="866" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHANGE_BROWSER_SETTINGS">
+      <map>
+        <entry key="svn">
+          <value>
+            <ChangeBrowserSettings>
+              <option name="DATE_BEFORE" />
+              <option name="DATE_AFTER" />
+            </ChangeBrowserSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="138" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/jxl.jar!/jxl/Workbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/scggllwhDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/scggllwh.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.6.0_05/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1569">
+          <caret line="596" column="0" lean-forward="false" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/js/ajaxupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="604" column="33" lean-forward="false" selection-start-line="604" selection-start-column="33" selection-end-line="604" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGXXWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="47" column="55" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/ZYSHGLLAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/entity/Ftp1CommonYield.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/ZCXJRZWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/entity/Ftp1CommonYield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YHPJLLAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/SCGGLLWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwh.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1552882282606" expanded="true" signature="294:302" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="294:778" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="294:786" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="368:769" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="394:758" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="403:749" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="429:739" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="440:725" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="452:713" ph="..." />
+            <marker date="1552882282606" expanded="true" signature="556:700" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZJRZSYLDCWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwh.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/PTZWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dhcc-framework-context/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/entity/FtpStockYield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/dao/FtpStockDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="105" lean-forward="false" selection-start-line="23" selection-start-column="105" selection-end-line="23" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/bo/FtpStockBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/GZWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwh.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/gzwh.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/dwr-2.0RC1.jar!/org/directwebremoting/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="156" column="4" lean-forward="false" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/commonJs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dhcc-framework-context/dhcc-controller-ftp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="305" column="19" lean-forward="false" selection-start-line="305" selection-start-column="13" selection-end-line="305" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="104" column="9" lean-forward="false" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="43" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwhDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="32" column="82" lean-forward="true" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/UploadExcelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="93" column="15" lean-forward="false" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/zcxjrzwhList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="56" column="60" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzjrzsyldcwhImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1764">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/ptzwhImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/gzwhImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="87" column="12" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/SHIBORWHAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="144" column="53" lean-forward="false" selection-start-line="144" selection-start-column="53" selection-end-line="144" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/htmlframe/images/date/close.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/pages/sjgl/shiborwhImport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLJGCXAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="53" lean-forward="false" selection-start-line="108" selection-start-column="53" selection-end-line="108" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/util/LrmUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/sjgl/YGZHGLAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/action/tjbb/ReportBbAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="71" column="72" lean-forward="true" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/util/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="1949" column="25" lean-forward="false" selection-start-line="1949" selection-start-column="25" selection-end-line="1949" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dhcc/ftp/bo/ReportBbBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3214">
+          <caret line="4065" column="23" lean-forward="false" selection-start-line="4065" selection-start-column="23" selection-end-line="4065" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>FTP-bb:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|FTP-bb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34922394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

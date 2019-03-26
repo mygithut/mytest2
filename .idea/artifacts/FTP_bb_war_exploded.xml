@@ -1,0 +1,63 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="FTP-bb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/FTP_bb_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FTP-bb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="antlr-2.7.6.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="asm-3.3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="asm-commons-3.3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="asm-tree-3.3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="cglib-2.2.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-digester-1.8.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-fileupload-1.2.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-io-1.4.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-lang3-3.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="commons-logging-api-1.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="db2jcc_license_cisuz.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="db2jcc_license_cu.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="db2jcc.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="dwr-2.0RC1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="ehcache-1.6.2.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="ejb3-persistence.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="freemarker-2.3.19.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="hibernate-annotations.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="hibernate-commons-annotations.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="hibernate-entitymanager.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="hibernate-validator.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="hibernate3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="jboss-archive-browsing.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="json_simple-1.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="jstl.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="jta-1.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="jxl.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="log4j-1.2.15.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="ognl-3.0.6.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="ojdbc14.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="oscache-2.4.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="proxool-0.8.3.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="slf4j-api-1.5.10.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="slf4j-log4j12-1.5.10.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="struts2-convention-plugin-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="struts2-core-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="struts2-jasperreports-plugin-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="struts2-jfreechart-plugin-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="struts2-junit-plugin-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="xwork-core-2.3.15.1.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="poi-3.6.jar" module-name="FTP-bb" />
+          <element id="library" level="module" name="javassist-3.12.1.GA.jar" module-name="FTP-bb" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="FTP-bb/web/Web" />
+    </root>
+  </artifact>
+</component>

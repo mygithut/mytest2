@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="FTP-bb:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/FTP_bb_war</output-path>
+    <root id="archive" name="FTP-bb_war.war">
+      <element id="artifact" artifact-name="FTP-bb:war exploded" />
+    </root>
+  </artifact>
+</component>

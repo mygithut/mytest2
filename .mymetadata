@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="FTP-HN-N"
+  id="myeclipse.1286846838732"
+  context-root="/ftp"
+  j2ee-spec="5.0"
+  archive="ftp.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

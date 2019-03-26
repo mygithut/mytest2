@@ -1,0 +1,113 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Page reset */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	font-size:14px;
+	font-color:red;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#main{
+	/* The main container */
+	text-align:center;
+	position:relative;
+	/* This is the container for the thumbnails */
+}
+#menu{
+	/* This is the container for the thumbnails */
+	margin-right:125px;
+	height:89px;
+}
+
+ul{
+list-style:none; /* 将默认的列表符号去掉 */
+padding:0; /* 将默认的内边距去掉 */
+margin:0; /* 将默认的外边距去掉 */
+}
+
+li {
+	/* Every thumbnail is a li element */
+	width:85px;
+	display:inline-block;
+	list-style:none;
+	height:85px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+
+li:hover{
+	/* The inactive state, highlighted on mouse over */
+	background:url(../images/active_bg.png);
+}
+
+
+li a{
+	color:black;
+	display:block;
+	height:85px;
+}
+
+a img{
+	border:none;
+}
+.li_hover {
+	background: url(../images/active_bg.png) no-repeat;
+	width:85px;
+	display:inline-block;
+	list-style:none;
+	height:85px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+.li_hover a{
+	color:#ffffff;
+	text-decoration:none;
+	outline:none;
+	}
+SPAN {
+	DISPLAY: none; BACKGROUND: url(../images/arrow_down.png) no-repeat 0px 0px;
+	WIDTH: 150px; LINE-HEIGHT: 55px; POSITION: absolute; TOP: -100px; HEIGHT: 70px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+/* The styles below are only necessary for the demo page */
+
+h1{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:36px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	position:absolute;
+	right:0;
+	text-transform:uppercase;
+	top:15px;
+}
+
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+	color:#ffffff;
+}
+p{
+	padding:10px;
+	text-align:center;
+}

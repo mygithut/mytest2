@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<something-else-entirely>
+  <proxool>
+    <alias>Diaochaproxool</alias>
+        <!--bb生产机数据库-->
+	    <driver-url>jdbc:db2://119.3.227.60:50000/bips</driver-url>
+<!--	    <driver-url>jdbc:db2://172.22.22.5:50000/bips</driver-url>-->
+<!--	<driver-url>jdbc:oracle:thin:@172.22.22.5:1521:dhccoa</driver-url>-->
+		<!--<driver-url>jdbc:db2://221.182.203.23:50000/bips</driver-url>-->
+<!--	<driver-url> jdbc:oracle:thin:@127.0.0.1:1521:orcl</driver-url>-->
+<!--  	<driver-url> jdbc:oracle:thin:@localhost:1521:orcl</driver-url> -->
+<!--	<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>-->
+<!--    <driver-url>jdbc:db2://192.168.9.156:50000/ftp</driver-url>-->
+<!--        <driver-url>jdbc:db2://127.0.0.1:50000/ftp</driver-url>-->
+        <driver-class>com.ibm.db2.jcc.DB2Driver</driver-class>
+		<driver-properties>
+		    <!--bb生产机数据库-->
+<!--			<property name="user" value="db2inst1" />-->
+			<property name="user" value="db2admin" />
+			<property name="password" value="dx@761517" />
+		
+			<property name="useUnicode" value="true" />
+			<property name="characterEncoding" value="GBK" />
+		</driver-properties>
+    <house-keeping-sleep-time>90000</house-keeping-sleep-time>
+    <maximum-new-connections>20</maximum-new-connections>
+    <prototype-count>5</prototype-count>
+    <maximum-connection-count>100</maximum-connection-count>
+    <minimum-connection-count>10</minimum-connection-count>
+  </proxool>
+</something-else-entirely>

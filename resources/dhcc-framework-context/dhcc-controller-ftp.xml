@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE 
+struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!--
+		=======================================================================================
+	-->
+	<!--
+		Controller/dhcc-controller-ftp
+	-->
+	<!--
+		Created on 2011-06-14 16:12:00
+	-->
+	<!--
+		@author 孙红玉/DHCC
+	-->
+	<!--
+		=======================================================================================
+	-->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- 添加下条语句，修改xml后，不需重新启动tomcat -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<package name="default" extends="struts-default" namespace="/">
+		<!-- 输入路径没有匹配action时默认进入的页面 -->
+		<default-action-ref name="login"></default-action-ref>
+		<action name="login">
+			<result>/login.jsp</result>
+		</action>
+	</package>
+	<package name="ftp" extends="struts-default" namespace="/">
+		<action name="zuayLogin_*" class="com.dhcc.ftp.action.ZuayLoginAction" method="{1}">
+			<result name="success">/htmlframe/index.html</result>
+			<result name="input">/login.jsp</result>
+		</action>
+
+		<action name="distribute" class="com.dhcc.ftp.action.DistributeAction">
+			<result name="CZYGL">/pages/xtgl/telmstSearch.jsp</result>
+			<result name="JSGL">/pages/xtgl/roleSearch.jsp</result>
+			<result name="JGGL">/pages/xtgl/brnoSearch.jsp</result>
+			<result name="GRXXXG">/pages/xtgl/grxxxg.jsp</result>
+			<!-- 单资金池 -->
+			<result name="UL01">/pages/ul01.jsp</result>
+			<!-- 单资金池历史价格查看 -->
+			<result name="DZJCLSJGCK">/pages/dzjc_history.jsp</result>
+			<!-- 单资金池配置 -->
+			<result name="DZJCPZ">/pages/dzjcpz.jsp</result>
+			<!-- 双资金池 -->
+			<result name="UL02">/pages/ul02.jsp</result>
+			<!-- 双资金池历史价格查看 -->
+			<result name="SZJCLSJGCK">/pages/szjc_history.jsp</result>
+			<!-- 双资金池配置 -->
+			<result name="SZJCPZ">/pages/szjcpz.jsp</result>
+			<!-- 多资金池 -->
+			<result name="UL03">/pages/ul03.jsp</result>
+			<!-- 多资金池历史价格查看 -->
+			<result name="DUOZJCLSJGCK">/pages/duozjc_history.jsp</result>
+			<!-- 多资金池配置 -->
+			<result name="DUOZJCPZ">/pages/duozjcpz.jsp</result>
+			<!-- 期限匹配 -->
+			<result name="UL06">/pages/ul06Search.jsp</result>
+			<!-- 期限匹配历史价格查看 -->
+			<result name="UL07">/pages/ul07Search.jsp</result>
+			<!-- 期限匹配产品定价方法配置 -->
+			<result name="QXPPCPDJFFPZ">/pages/qxppcpdjffpz_search.jsp</result>
+			<!-- 收益率曲线历史查看 -->
+			<result name="SYLQXLSCK">/pages/ul04_history_search.jsp</result>
+			<!-- 市场公共利率维护 -->
+			<result name="SCGGLLWH">/pages/sjgl/scggllwh.jsp</result>
+
+
+			<!-- SHIBOR维护 -->
+			<result name="SHIBORWH">/pages/sjgl/shiborwh.jsp</result>
+			<!-- 国债维护 -->
+			<result name="GZWH">/pages/sjgl/gzwh.jsp</result>
+			<!-- 政策性金融债收益率维护 -->
+			<result name="ZCXJRZWH">/pages/sjgl/zcxjrzwh.jsp</result>
+			<!-- 普通债收益率 (AA-)维护 -->
+			<result name="PTZWH">/pages/sjgl/ptzwh.jsp</result>
+
+
+
+			<!-- 银行信用评级 -->
+			<result name="UL05">/pages/ul05.jsp</result>
+			<!-- 定价策略配置 -->
+			<result name="DJCLPZ">/pages/djclpz.jsp</result>
+			<!-- 机构总盈利分析 -->
+			<result name="JGZYLFX">/pages/tjbb/report_jgzylfx.jsp</result>
+			<!-- 业务条线盈利分析 -->
+			<result name="YWTXYLFX">/pages/tjbb/report_ywtxylfx.jsp</result>
+			<!-- 资金中心利差分析 -->
+			<result name="ZJZXLCFX">/pages/tjbb/report_zjzxlcfx.jsp</result>
+			<!-- 机构盈利排名 -->
+			<result name="JGYLPM">/pages/tjbb/report_jgylpm.jsp</result>
+			<!-- 财务费用杂项补录 -->
+			<result name="CWFYZXBL">/pages/sjgl/cwfyzxbl.jsp</result>
+			<!-- 收益率曲线省级策略调整 -->
+			<!--			<result name="SYLQXSJCLTZ">/pages/sylqxsjcltz_search.jsp</result>-->
+			<!-- 期限匹配业务模拟定价 -->
+			<result name="QXPPYWMNDJ">/pages/qxppywmndj.jsp</result>
+			<!-- 机构总盈利分析_试发布 -->
+			<result name="JGZYLFX_SFB">/pages/ssbb/report_jgzylfx_sfb.jsp</result>
+			<!-- 业务条线盈利分析_试发布 -->
+			<result name="YWTXYLFX_SFB">/pages/ssbb/report_ywtxylfx_sfb.jsp</result>
+			<!-- 资金中心利差分析_试发布 -->
+			<result name="ZJZXLCFX_SFB">/pages/ssbb/report_zjzxlcfx_sfb.jsp</result>
+			<!-- 机构盈利排名_试发布 -->
+			<result name="JGYLPM_SFB">/pages/ssbb/report_jgylpm_sfb.jsp</result>
+			<!-- 数据管理_员工信息维护 -->
+			<result name="YGXXWH">/pages/sjgl/YGXXWHh.jsp</result>
+			<!-- 数据管理_员工账户关联 -->
+			<result name="YGZHGL">/pages/sjgl/ygzhglSearch.jsp</result>
+			<!-- 数据管理_员工账户关联 -->
+			<result name="CKLLFGBLSZ" type="chain">CKLLFGBLSZ_getList</result>
+
+			<!-- 期限匹配_存款准备金调整 -->
+			<result name="CKZZJTZ" type="chain">CKZZJTZ_getList</result>
+			<!-- 期限匹配_流动性调整（即期限溢价） -->
+			<result name="LDXTZ" type="chain">LDXTZ_getList</result>
+			<!-- 期限匹配_策略调整 -->
+			<result name="CLTZ">/pages/cltz.jsp</result>
+			<!-- 数据管理_质押式回购利率维护-->
+			<result name="ZYSHGLL">/pages/sjgl/zyshgll.jsp</result>
+			<!-- 数据管理_央行票据利率维护 -->
+			<result name="YHPJLL">/pages/sjgl/yhpjll.jsp</result>
+			<!-- 数据管理_普通债与金融债收益率点差维护 -->
+			<result name="PTZJRZSYLDCWH">/pages/sjgl/ptzjrzsyldcwh.jsp</result>
+			<!-- 数据管理_提前还款/支取调整 -->
+			<result name="TQHKZQTZ">/pages/tqhkzqtz.jsp</result>
+			<!-- 数据管理_定价信用风险调整 -->
+			<result name="DJXYFXTZ">/pages/djxyfxtz.jsp</result>
+			<!-- 期限匹配_产品定价公布栏 -->
+			<result name="CPDJFBL">/pages/cpdjfbl.jsp</result>
+			<!-- 期限匹配_还贷保障比调整 -->
+			<result name="HDBZBTZ" type="chain">HDBZBTZ_getList</result>
+
+			<!-- 数据管理 金融市场业务导入_同业 -->
+			<result name="JRSCYWDRTY">/pages/jrscywdr_ty.jsp</result>
+			<!-- 数据管理 金融市场业务导入_回购 -->
+			<result name="JRSCYWDRHG">/pages/jrscywdr_hg.jsp</result>
+			<!-- 数据管理 金融市场业务导入_投资 -->
+			<result name="JRSCYWDRTZ">/pages/jrscywdr_invest.jsp</result>
+			<!-- 数据管理 金融市场业务导入_拆借 -->
+			<result name="JRSCYWDRCJ">/pages/jrscywdr_cj.jsp</result>
+			<!-- 数据管理 金融市场业务导入_现券买卖 -->
+			<result name="JRSCYWDRXQMM">/pages/jrscywdr_xqmm.jsp</result>
+			<!-- 数据管理 金融市场业务导入_存出保证金 -->
+			<result name="JRSCYWDRCCBBZ">/pages/jrscywdr_ccbzj.jsp</result>
+			<!-- 数据管理 金融市场业务导入_向中央银行借款 -->
+			<result name="JRSCYWDRXZYYHJK">/pages/jrscywdr_xzyyhjk.jsp</result>
+			<!-- 统计报表-全行所有机构FTP利润汇总表 -->
+			<result name="QHSYJGLRHZB">/pages/tjbb/reportBb_qhsyjglrhzb.jsp</result>
+			<!-- 统计报表-全行所有机构FTP利润排名表 -->
+			<result name="QHSYJGLRPMB">/pages/tjbb/reportBb_qhsyjglrpmb.jsp</result>
+			<!-- 统计报表-机构业务条线FTP利润排名表 -->
+			<result name="JGYWTXLRHZB">/pages/tjbb/reportBb_jgywtxlrhzb.jsp</result>
+			<!-- 统计报表-产品分机构FTP利润表 -->
+			<result name="CPFJGLRB">/pages/tjbb/reportBb_cpfjglrb.jsp</result>
+			<!-- 统计报表-产品分客户经理FTP利润表 -->
+			<result name="CPFKHJLLRB">/pages/tjbb/reportBb_cpfkhjllrb.jsp</result>
+			<!-- 统计报表-客户经理分产品FTP利润表 -->
+			<result name="KHJLFCPLRB">/pages/tjbb/reportBb_khjlfcplrb.jsp</result>
+			<!-- 统计报表-客户经理分客户FTP利润表 -->
+			<result name="KHJLFKHLRB">/pages/tjbb/reportBb_khjlfkhlrb.jsp</result>
+			<!-- 统计报表-客户经理FTP利润明细表 -->
+			<result name="KHJLLRMXB">/pages/tjbb/reportBb_khjllrmxb.jsp</result>
+			<!-- 统计报表-客户经理FTP利润排名表 -->
+			<result name="KHJLLRPMB">/pages/tjbb/reportBb_khjllrpmb.jsp</result>
+			<!-- 数据管理_员工账户关联结果查询 -->
+			<result name="YGZHGLJGCX">/pages/sjgl/ygzhgljgcxSearch.jsp</result>
+			<result name="GRAJJGLRB">/pages/tjbb/reportBb_grajjglrb.jsp</result>
+            <!-- 统计报表-个人按揭客户经理FTP利润表 -->
+            <result name="GRAJKHJLLRB">/pages/tjbb/reportBb_grajkhjllrb.jsp</result>
+            <!-- 统计报表-银行客户经理统计报表 -->
+            <result name="YHKHJLTJBB">/pages/tjbb/reportBb_yhkhjltjbb.jsp</result>
+
+			<!-- 统计报表-公司部业务利润明细表 -->
+			<result name="GSYWBLRMXB">/pages/tjbb/reportBb_gsywbmxb.jsp</result>
+
+			<!-- 期限匹配_贷款调整 -->
+			<result name="DKTZ" type="chain">FtpDkAdjust_getList</result>
+			<!-- 期限匹配_保证金调整 -->
+			<result name="BZJBL" >/pages/jr_bzj.jsp</result>
+            <!-- 统计报表-保证金存款客户经理FTP利润报表 -->
+            <result name="BZJCKKHJLLRB">/pages/tjbb/reportBb_bzjckkhjllrb.jsp</result>
+			<!-- 期限匹配_贷款上浮比例调整 -->
+			<result name="DKSFBLTZ" type="chain">FtpDksfblAdjust_getList</result>
+		</action>
+		<action name="tlrctlOrgTreeAction" class="com.dhcc.ftp.action.TlrctlOrgTreeAction">
+		</action>
+		<!-- 生成对应业务代码下拉框 -->
+		<action name="fillSelect_*" class="com.dhcc.ftp.action.FillSelectAction" method="{1}">
+		</action>
+		<!-- 上传文件 -->
+		<action name="uploadExcel" class="com.dhcc.ftp.action.UploadExcelAction">
+		</action>
+		<action name="queryCurrency" class="com.dhcc.ftp.action.QueryCurrencyAction" />
+		<action name="telmst_*" class="com.dhcc.ftp.action.xtgl.TelMstAction" method="{1}">
+			<result name="list">/pages/xtgl/telmstList.jsp</result>
+			<result name="search">/pages/xtgl/telmstUpdate.jsp</result>
+			<result name="noSearch">/pages/xtgl/telNoSearchResult.jsp</result>
+			<result name="modfiyRole" type="dispatcher">pages/xtgl/telmstModfiyRole.jsp</result>
+			<result name="insertStart">/pages/xtgl/telmstInsert.jsp</result>
+			<result name="pwd">pages/xtgl/telmstModfiyPWD.jsp</result>
+		</action>
+		<action name="brmst_*" class="com.dhcc.ftp.action.xtgl.BrMstAction" method="{1}">
+			<result name="list">/pages/xtgl/brnoList.jsp</result>
+			<result name="addBrno">/pages/xtgl/brnoAdd.jsp</result>
+			<result name="detail">/pages/xtgl/brnoDetail.jsp</result>
+		</action>
+		<action name="rolemst_*" class="com.dhcc.ftp.action.xtgl.RoleMstAction" method="{1}">
+			<result name="list">/pages/xtgl/roleList.jsp</result>
+			<result name="roleAdd">/pages/xtgl/roleAdd.jsp</result>
+			<result name="detail">/pages/xtgl/roleUpdate.jsp</result>
+			<result name="menuSearch">/pages/xtgl/roleMenuUpdate.jsp</result>
+		</action>
+		<!-- 单资金池 -->
+		<action name="UL01_*" class="com.dhcc.ftp.action.UL01Action" method="{1}">
+			<result name="resultPrice">/pages/dzjc_history_list.jsp</result>
+			<result name="history">/pages/ul01_history.jsp</result>
+			<result name="report">/pages/ul01_report.jsp</result>
+		</action>
+		<!-- 单资金池配置 -->
+		<action name="DZJCPZ_*" class="com.dhcc.ftp.action.DzjcpzAction" method="{1}">
+			<result name="list">/pages/dzjcpzList.jsp</result>
+			<result name="prdtList">/pages/zjcpzPrdt.jsp</result>
+		</action>
+		<!-- 双资金池 -->
+		<action name="UL02_*" class="com.dhcc.ftp.action.UL02Action" method="{1}">
+			<result name="resultPrice">/pages/szjc_history_list.jsp</result>
+			<result name="history">/pages/ul01_history.jsp</result>
+			<result name="report">/pages/ul02_report.jsp</result>
+		</action>
+		<!-- 双资金池配置 -->
+		<action name="SZJCPZ_*" class="com.dhcc.ftp.action.SzjcpzAction" method="{1}">
+			<result name="list">/pages/szjcpzList.jsp</result>
+			<result name="prdtList">/pages/zjcpzPrdt.jsp</result>
+		</action>
+		<!-- 多资金池 -->
+		<action name="UL03_*" class="com.dhcc.ftp.action.UL03Action" method="{1}">
+			<result name="list">/pages/ul03_list.jsp</result>
+			<result name="resultPrice">/pages/duozjc_history_list.jsp</result>
+			<result name="history">/pages/ul01_history.jsp</result>
+			<result name="report">/pages/ul03_report.jsp</result>
+		</action>
+		<!-- 多资金池配置 -->
+		<action name="DUOZJCPZ_*" class="com.dhcc.ftp.action.DuozjcpzAction" method="{1}">
+			<result name="list">/pages/duozjcpzList.jsp</result>
+			<result name="prdtList">/pages/zjcpzPrdt.jsp</result>
+		</action>
+		<!-- 期限匹配 -->
+		<action name="UL06_*" class="com.dhcc.ftp.action.UL06Action" method="{1}">
+			<result name="list">/pages/ul06List.jsp</result>
+			<result name="compute_result">/pages/ul06Result.jsp</result>
+			<result name="compute_success_list">/pages/ul06Save.jsp</result>
+			<result name="compute_error_list">/pages/ul06SaveError.jsp</result>
+		</action>
+		<!-- 期限匹配 -历史价格查看-->
+		<action name="UL07_*" class="com.dhcc.ftp.action.UL07Action" method="{1}">
+			<result name="list">/pages/ul07List.jsp</result>
+			<result name="curve_history">/pages/ul07_curve_history.jsp</result>
+		</action>
+		<!-- 期限匹配 -期限匹配产品定价方法配置-->
+		<action name="QXPPCPDJFFPZ_*" class="com.dhcc.ftp.action.QxppcpdjffpzAction" method="{1}">
+			<result name="list">/pages/qxppcpdjffpz_list.jsp</result>
+			<result name="modify">/pages/qxppcpdjffpz_modify.jsp</result>
+		</action>
+		<!-- 期限匹配 -业务模拟定价-->
+		<action name="QXPPYWMNDJ_*" class="com.dhcc.ftp.action.QxppywmndjAction" method="{1}">
+			<result name="compute_result">/pages/qxppywmndj_result.jsp</result>
+		</action>
+		<!-- 收益率曲线生成 -->
+		<action name="UL04_*" class="com.dhcc.ftp.action.UL04Action" method="{1}">
+			<result name="distribute">/pages/ul04.jsp</result>
+			<result name="curve_internal">/pages/ul04_curve_internal.jsp</result>
+			<result name="curve_market">/pages/ul04_curve_market.jsp</result>
+			<result name="countyAdjust">/pages/ul04_county_adjust.jsp</result>
+			<result name="curve_error">/pages/ul04_curve_error.jsp</result>
+			<result name="curve_history">/pages/ul04_curve_history.jsp</result>
+			<result name="curve_fsxzc">/pages/ul04_curve_fsxzc.jsp</result>
+			<result name="curve_shibor">/pages/ul04_curve_shibor.jsp</result>
+			<result name="report">/pages/ul04_report.jsp</result>
+			<!-- excel -->
+			<result name="success" type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+				<param name="inputName">excelStream</param>
+				<param name="contentDisposition">attachment;filename="${fileName}.xls"</param>
+				<param name="bufferSize">1024</param>
+			</result>
+		</action>
+		<!-- 收益率曲线历史查看 -->
+		<action name="SYLQXLSCK_*" class="com.dhcc.ftp.action.UL04Action" method="{1}">
+			<result name="history_list">/pages/ul04_history_list.jsp</result>
+		</action>
+		<!-- 市场公共利率维护-->
+		<action name="SCGGLLWH_*" class="com.dhcc.ftp.action.sjgl.SCGGLLWHAction" method="{1}">
+			<result name="List">/pages/sjgl/scggllwhList.jsp</result>
+			<result name="Edit">/pages/sjgl/scggllwhDetail.jsp</result>
+		</action>
+		<!-- SHIBOR维护-->
+		<action name="SHIBORWH_*" class="com.dhcc.ftp.action.sjgl.SHIBORWHAction" method="{1}">
+			<result name="Import">/pages/sjgl/shiborwhImport.jsp</result>
+			<result name="List">/pages/sjgl/shiborwhList.jsp</result>
+			<result name="Edit">/pages/sjgl/shiborwhDetail.jsp</result>
+		</action>
+		<!-- 国债信息维护-->
+		<action name="GZWH_*" class="com.dhcc.ftp.action.sjgl.GZWHAction" method="{1}">
+			<result name="Import">/pages/sjgl/gzwhImport.jsp</result>
+			<result name="List">/pages/sjgl/gzwhList.jsp</result>
+			<result name="Edit">/pages/sjgl/gzwhDetail.jsp</result>
+		</action>
+		<!-- 普通债收益率 (AA-)维护 -->
+		<action name="PTZWH_*" class="com.dhcc.ftp.action.sjgl.PTZWHAction" method="{1}">
+			<result name="import">/pages/sjgl/ptzwhImport.jsp</result>
+			<result name="List">/pages/sjgl/ptzwhList.jsp</result>
+			<result name="Edit">/pages/sjgl/ptzwhDetail.jsp</result>
+		</action>
+		<!-- 政策性金融债收益率维护-->
+		<action name="ZCXJRZWH_*" class="com.dhcc.ftp.action.sjgl.ZCXJRZWHAction" method="{1}">
+			<result name="import">/pages/sjgl/zcxjrzwhImport.jsp</result>
+			<result name="List">/pages/sjgl/zcxjrzwhList.jsp</result>
+			<result name="Edit">/pages/sjgl/zcxjrzwhDetail.jsp</result>
+		</action>
+		<!-- 银行信用评级 -->
+		<action name="UL05_*" class="com.dhcc.ftp.action.UL05Action" method="{1}">
+			<result name="list">/pages/ul05List.jsp</result>
+			<result name="Edit">/pages/ul05Detail.jsp</result>
+		</action>
+		<!-- 财务费用杂项补录-->
+		<action name="CWFYZXBL_*" class="com.dhcc.ftp.action.sjgl.CWFYZXBLAction" method="{1}">
+			<result name="List">/pages/sjgl/cwfyzxblList.jsp</result>
+			<result name="Edit">/pages/sjgl/cwfyzxblDetail.jsp</result>
+		</action>
+		<!-- 收益率曲线省级策略调整 -->
+		<!--		<action name="SYLQXSJCLTZ_*" class="com.dhcc.ftp.action.SYLQXSJCLTZAction" method="{1}">-->
+		<!--		    <result name="list">/pages/sylqxsjcltz_list.jsp</result>-->
+		<!--		    <result name="edit">/pages/sylqxsjcltz_edit.jsp</result>-->
+		<!--		</action>-->
+
+		<!-- 定价策略配置 -->
+		<action name="DJCLPZ_*" class="com.dhcc.ftp.action.DjclpzAction" method="{1}">
+			<result name="list">/pages/djclpzList.jsp</result>
+		</action>
+		<!-- 统计报表 -->
+		<action name="REPORT_*" class="com.dhcc.ftp.action.tjbb.ReportAction" method="{1}">
+			<result name="jgzylfxList">/pages/tjbb/report_jgzylfx_list.jsp</result>
+			<result name="ywtxzylfxList">/pages/tjbb/report_ywtxylfx_list.jsp</result>
+			<result name="cpylfxList">/pages/tjbb/report_cpylfx_list.jsp</result>
+			<result name="jgylpmList">/pages/tjbb/report_jgylpm_list.jsp</result>
+			<result name="zjzxlcfxList">/pages/tjbb/report_zjzxlcfx_list.jsp</result>
+		</action>
+		<!-- 统计报表试发布 -->
+		<action name="REPORTSFB_*" class="com.dhcc.ftp.action.ssbb.ReportSfbAction" method="{1}">
+			<result name="list">/pages/ssbb/report_jgzylfx_sfb_list.jsp</result>
+			<result name="ywtxzylfxList">/pages/ssbb/report_ywtxylfx_sfb_list.jsp</result>
+			<result name="cpylfxList">/pages/ssbb/report_cpylfx_sfb_list.jsp</result>
+			<result name="jgylpmList">/pages/ssbb/report_jgylpm_sfb_list.jsp</result>
+			<result name="zjzxlcfxList">/pages/ssbb/report_zjzxlcfx_sfb_list.jsp</result>
+		</action>
+		<!-- 期限匹配业务模拟定价 -->
+		<!--		<action name="SYLQXSJCLTZ_*" class="com.dhcc.ftp.action.SYLQXSJCLTZAction" method="{1}">-->
+		<!--		    <result name="list">/pages/sylqxsjcltz_list.jsp</result>-->
+		<!--		    <result name="edit">/pages/sylqxsjcltz_edit.jsp</result>-->
+		<!--		</action>-->
+		<!-- 员工账户关联 -->
+		<action name="YGZHGL_*" class="com.dhcc.ftp.action.sjgl.YGZHGLAction" method="{1}">
+			<result name="List">/pages/sjgl/ygzhglList.jsp</result>
+			<result name="relatedEmp">/pages/sjgl/ygzhglRelatedEmp.jsp</result>
+			<result name="empList">/pages/sjgl/ygzhglEmplist.jsp</result>
+			<result name="relatedEmp1">/pages/sjgl/ygzhglRelatedEmp1.jsp</result>
+		</action>
+
+		<!--员工信息维护-->
+		<action name="YGXXWH_*" class="com.dhcc.ftp.action.sjgl.YGXXWHAction" method="{1}">
+			<!--<result name="Import">/pages/shiborwhImport.jsp</result>			-->
+			<result name="List">/pages/sjgl/YGXXWHList.jsp</result>
+			<result name="detail">pages/sjgl/YGXXWHDetail.jsp</result>
+			<result name="sel">/pages/sjgl/selEmpList.jsp</result>
+		</action>
+
+		<!--存贷款利率设置-->
+		<action name="CKLLFGBLSZ_*" class="com.dhcc.ftp.action.CKLLFGBLSZAction" method="{1}">
+			<!--<result name="Import">/pages/shiborwhImport.jsp</result>			-->
+			<result name="List">pages/CKLLFGBLSZList.jsp</result>
+			<result name="update">pages/CKLLFGBLSZMsg.jsp</result>
+		</action>
+
+		<!--期限匹配_存款准备金调整 -->
+		<action name="CKZZJTZ_*" class="com.dhcc.ftp.action.CKZZJTZAction" method="{1}">
+			<!--<result name="Import">/pages/shiborwhImport.jsp</result>			-->
+			<result name="List">/pages/ckzzjtzList.jsp</result>
+		</action>
+		<!-- 期限匹配_流动性调整（即期限溢价） -->
+		<action name="LDXTZ_*" class="com.dhcc.ftp.action.LDXTZAction" method="{1}">
+			<result name="List">/pages/ldxtzList.jsp</result>
+			<result name="tosave" type="chain">LDXTZ_getList</result>
+		</action>
+		<!-- 期限匹配_策略调整 -->
+		<action name="CLTZ_*" class="com.dhcc.ftp.action.CLTZAction" method="{1}">
+			<result name="tosave">
+				pages/cltzMsg.jsp
+			</result>
+			<result name="List">pages/cltzList.jsp</result>
+		</action>
+		<!-- 数据管理_质押式回购利率设置 -->
+		<action name="ZYSHGLL_*" class="com.dhcc.ftp.action.sjgl.ZYSHGLLAction" method="{1}">
+			<result name="import">/pages/sjgl/zyshgllImport.jsp</result>
+			<result name="Edit">/pages/sjgl/zyshgllDetail.jsp</result>
+			<result name="List">pages/sjgl/zyshgllList.jsp</result>
+		</action>
+		<!-- 数据管理_央行票据利率设置 -->
+		<action name="YHPJLL_*" class="com.dhcc.ftp.action.sjgl.YHPJLLAction" method="{1}">
+			<result name="import">/pages/sjgl/yhpjllImport.jsp</result>
+			<result name="List">/pages/sjgl/yhpjllList.jsp</result>
+			<result name="Edit">/pages/sjgl/yhpjllDetail.jsp</result>
+		</action>
+		<!-- 数据管理_质押式回购利率设置 -->
+		<action name="PTZJRZSYLDCWH_*" class="com.dhcc.ftp.action.sjgl.PTZJRZSYLDCWHAction" method="{1}">
+			<result name="import">/pages/sjgl/ptzjrzsyldcwhImport.jsp</result>
+			<result name="Edit">/pages/sjgl/ptzjrzsyldcwhDetail.jsp</result>
+			<result name="List">pages/sjgl/ptzjrzsyldcwhList.jsp</result>
+		</action>
+		<!-- 数据管理_提前还款/支取调整 -->
+		<action name="TQHKZQTZ_*" class="com.dhcc.ftp.action.TQHKZQTZAction" method="{1}">
+			<result name="List">/pages/tqhkzqtzList.jsp</result>
+			<result name="Save">/pages/tqhkzqtzList.jsp</result>
+		</action>
+		<!-- 数据管理_定价信用风险调整 -->
+		<action name="DJXYFXTZ_*" class="com.dhcc.ftp.action.DJXYFXTZAction" method="{1}">
+			<result name="List">/pages/djxyfxtzList.jsp</result>
+			<result name="Save">/pages/djxyfxtzList.jsp</result>
+		</action>
+		<!-- 期限匹配_产品定价发布栏 -->
+		<action name="cpdjfbl_*" class="com.dhcc.ftp.action.CPDJFBLAction" method="{1}">
+			<result name="list">/pages/cpdjfblList.jsp</result>
+			<result name="computeResult">/pages/cpdjfblDetail.jsp</result>
+		</action>
+		<action name="JRSCYWDRTY_*" class="com.dhcc.ftp.action.JRSCYWDRTYAction" method="{1}">
+			<result name="List">/pages/jrscywdr_ty_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_ty_edit.jsp</result>
+		</action>
+		<action name="Bzjbl_*" class="com.dhcc.ftp.action.BzjblAction" method="{1}">
+			<result name="List">/pages/jrbzj_list.jsp</result>
+			<result name="Edit">/pages/jrbzj_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_回购-->
+		<action name="JRSCYWDRHG_*" class="com.dhcc.ftp.action.JRSCYWDRHGAction" method="{1}">
+			<result name="List">/pages/jrscywdr_hg_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_hg_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_投资-->
+		<action name="JRSCYWDRINVEST_*" class="com.dhcc.ftp.action.JRSCYWDRINVESTAction" method="{1}">
+
+			<result name="List">/pages/jrscywdr_invest_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_invest_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_拆借-->
+		<action name="JRSCYWDRCJ_*" class="com.dhcc.ftp.action.JRSCYWDRCJAction" method="{1}">
+
+			<result name="List">/pages/jrscywdr_cj_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_cj_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_现券买卖-->
+		<action name="JRSCYWDRXQMM_*" class="com.dhcc.ftp.action.JRSCYWDRXQMMAction" method="{1}">
+
+			<result name="List">/pages/jrscywdr_xqmm_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_xqmm_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_存出保证金-->
+		<action name="JRSCYWDRCCBZJ_*" class="com.dhcc.ftp.action.JRSCYWDRCCBZJAction" method="{1}">
+
+			<result name="List">/pages/jrscywdr_ccbzj_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_ccbzj_edit.jsp</result>
+		</action>
+		<!-- 金融市场业务导入_向中央银行借款-->
+		<action name="JRSCYWDRXZYYHJK_*" class="com.dhcc.ftp.action.JRSCYWDRXZYYHJKAction" method="{1}">
+
+			<result name="List">/pages/jrscywdr_xzyyhjk_list.jsp</result>
+			<result name="Edit">/pages/jrscywdr_xzyyhjk_edit.jsp</result>
+		</action>
+		<!-- 期限匹配_还贷保障比调整 -->
+		<action name="HDBZBTZ_*" class="com.dhcc.ftp.action.HDBZBTZAction" method="{1}">
+			<result name="list">/pages/hdbzbtz_list.jsp</result>
+			<result name="Edit">/pages/hdbzbtz_edit.jsp</result>
+		</action>
+		<!-- 统计报表 -->
+		<action name="REPORTBB_*" class="com.dhcc.ftp.action.tjbb.ReportBbAction" method="{1}">
+			<result name="qhsyjglrhzbList">/pages/tjbb/reportBb_qhsyjglrhzb_list.jsp</result>
+			<result name="qhsyjglrpmbList">/pages/tjbb/reportBb_qhsyjglrpmb_list.jsp</result>
+			<result name="jgywtxlrhzbList">/pages/tjbb/reportBb_jgywtxlrhzb_list.jsp</result>
+			<result name="grajjglrbList">/pages/tjbb/reportBb_grajjglrb_list.jsp</result>
+            <result name="grajkhjllrbList">/pages/tjbb/reportBb_grajkhjllrb_list.jsp</result>
+			<result name="jggtxxfcplrmxbList">/pages/tjbb/reportBb_jggtxxfcplrmxb_list.jsp</result>
+			<result name="cpfjglrbList">/pages/tjbb/reportBb_cpfjglrb_list.jsp</result>
+			<result name="cpfkhjllrbList">/pages/tjbb/reportBb_cpfkhjllrb_list.jsp</result>
+			<result name="khjlfcplrbList">/pages/tjbb/reportBb_khjlfcplrb_list.jsp</result>
+			<result name="khjlfkhlrbList">/pages/tjbb/reportBb_khjlfkhlrb_list.jsp</result>
+			<result name="khjlfkhlrbListExport">/pages/tjbb/reportBb_khjlfkhlrb_export.jsp</result>
+			<result name="khjllrmxbList">/pages/tjbb/reportBb_khjllrmxb_list.jsp</result>
+			<result name="khjllrmxbListExport">/pages/tjbb/reportBb_khjllrmxb_export.jsp</result>
+			<result name="khjllrpmbList">/pages/tjbb/reportBb_khjllrpmb_list.jsp</result>
+			<result name="yhkhjltjbbList">/pages/tjbb/reportBb_yhkhjltjbb_list.jsp</result>
+			<!-- <result name="bzjckkhjllrbList">/pages/tjbb/reportBb_bzjckkhjllrb.jsp</result> -->
+			<result name="bzjckkhjllrbList">/pages/tjbb/reportBb_bzjckkhjllrb_list.jsp</result>
+			<result name="gsywblrmxbList">/pages/tjbb/reportBb_gsywblrmxb_list.jsp</result>
+		</action>
+		<!-- 员工账户关联结果查询 -->
+		<action name="YGZHGLJGCX_*" class="com.dhcc.ftp.action.sjgl.YGZHGLJGCXAction" method="{1}">
+			<result name="List">/pages/sjgl/ygzhgljgcxList.jsp</result>
+		</action>
+		<!--  贷款调整-->
+		<action name="FtpDkAdjust_*" class="com.dhcc.ftp.action.FtpDkAdjustAction" method="{1}">
+			<result name="list">/pages/ftp_dk_list.jsp</result>
+			<result name="detail">/pages/ftp_dk_detail.jsp</result>
+		</action>
+		<!--  贷款上浮比例调整-->
+		<action name="FtpDksfblAdjust_*" class="com.dhcc.ftp.action.FtpDksfblAdjustAction" method="{1}">
+			<result name="list">/pages/ftp_dk_sfbl_list.jsp</result>
+			<result name="detail">/pages/ftp_dk_sfbl_detail.jsp</result>
+		</action>
+	</package>
+</struts>

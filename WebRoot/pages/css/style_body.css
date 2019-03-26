@@ -1,0 +1,242 @@
+a:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+a:hover {
+	FONT-SIZE: 12px; COLOR: #7bb141; TEXT-DECORATION: underline
+}
+a {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.tb1{
+	 border-collapse: collapse; font-size: 10pt; FONT-FAMILY: "宋体";
+}
+.tb3{
+	  font-size: 10pt; FONT-FAMILY: "宋体";
+}
+.tb2{
+	border-collapse: collapse; font-size: 10pt; COLOR: #018701;  FONT-FAMILY: "宋体", "新宋体";
+}
+.textarea {
+	BORDER-RIGHT: #6666ff 1px solid; BORDER-TOP: #6666ff 1px solid; FONT: 10pt "宋体", "新宋体"; BORDER-LEFT: #6666ff 1px solid; COLOR: #6666ff; BORDER-BOTTOM: #6666ff 1px solid; HEIGHT: 30pt; BACKGROUND-COLOR: #ffffff
+}
+.font1 {
+	FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: "宋体", "新宋体";
+}
+.font2 {
+	FONT-SIZE: 10pt; COLOR: #018701; FONT-FAMILY: "宋体", "新宋体";
+}
+.font3 {
+	FONT-SIZE: 10pt; font-weight: bold;FONT-FAMILY: "宋体", "新宋体";
+}
+.font4 {
+	FONT-SIZE: 10pt;FONT-FAMILY: "宋体", "新宋体";
+}
+.font5 {
+	FONT-SIZE: 13pt; font-weight: bold;FONT-FAMILY: "宋体", "新宋体";
+}
+.button1{
+	 background-image:url("img/button.jpg");  repeat-x center; width: 35px; height: 19px;
+}
+.button2{
+	 background-image:url("img/button3.gif");  repeat-x center; width: 60px; height: 19px;
+}
+.button3{
+	 background-image:url("img/button3.jpg");  repeat-x center; width: 70px; height: 19px;
+}
+.button4{
+	 background-image:url("img/button4.jpg");  repeat-x center; width: 80px; height: 19px;
+}
+.button5{
+	 background-image:url("img/button5.jpg");  repeat-x center; width: 90px; height: 19px;
+}
+.button6{
+	 background-image:url("img/button6.jpg");  repeat-x center; width: 100px; height: 19px;
+}
+.button7{
+	 background-image:url("img/button7.jpg");  repeat-x center; width: 110px; height: 19px;
+}
+.button8{
+	background-image:url("img/button8.jpg");  repeat-x center; width: 120px; height: 19px;
+}
+.button9{
+	 background-image:url("img/button9.jpg");  repeat-x center; width: 130px; height: 19px;
+}
+.button10{
+	 background-image:url("img/button10.jpg");  repeat-x center; width: 140px; height: 19px;
+}
+.button11{
+	 background-image:url("img/button11.jpg");  repeat-x center; width: 150px; height: 19px;
+}
+.button12{
+	 background-image:url("img/button12.jpg");  repeat-x center; width: 160px; height: 19px;
+}
+.button13{
+	 background-image:url("img/button13.jpg");  repeat-x center; width: 55px; height: 19px;
+}
+.but_01{
+	background:url(/ftp/pages/images/but_2.gif) no-repeat; width:92px; height:24px; border:0 none; color:#000;margin:0 40px;
+	}
+.but_02{
+	background:url(/ftp/pages/images/but_1.gif) no-repeat; width:70px; height:24px; border:0 none; color:#000; margin:0 40px;
+	}
+.readonly{
+background-color:#EEEEEE; color:#444444	
+}
+.navigator{
+	BACKGROUND-COLOR: #e6ecda
+}
+.title{
+	FONT-SIZE: 13pt;font-weight: bold;   font-family: "宋体", "新宋体";
+}
+.mytitle2{
+	FONT-SIZE: 10pt;  FONT-FAMILY: "宋体", "新宋体";
+}
+.custlist{
+	DISPLAY: true
+}
+.table{
+	border-collapse: collapse; font-size: 10pt; 
+}
+.p12_green {  color: #316400; font-size: 12px; line-height: 14pt}
+.p14_green {  font-size: 14px; line-height: 14pt; color: #316400}
+.p12_black {  font-size: 12px; line-height: 14pt; color: #000000}
+.p14_black {  font-size: 14px; line-height: 14pt; color: #000000}
+.p12_green2 {  font-size: 12px; line-height: 14pt; color: #3f7015}
+
+/* default fonts style */
+body,p,td{
+font:12px/18px arial;
+color:#498700;
+}
+
+a:link,a:active,a:hover{color:#498700;}
+
+/*   the top menu fonts style */
+.menu_top
+{
+font:18px 黑体;
+color:#498700;
+}
+
+
+/* default style for input and select */
+input,select,textarea{
+margin:0px 4px 0px 0px;
+font:12px arial;
+color:#498700;
+}
+
+/* top background */
+.top_bg{
+line-height:12px;
+background:url(/ftp/pages/images/top_bg.jpg) repeat-x #FFFFFF;
+}
+.kind_bg{
+line-height:12px;
+background:url(img/top_bg.jpg) repeat-x #FFFFFF;
+font-weight: bold;
+}
+/* middle or bottom background */
+.mid_bg{
+background:#EEF2E6;
+}
+
+/* 登录按钮 */
+.login_input{
+border:medium none;
+background:url(img/login.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 确定按钮 */
+.okey_input{
+border:medium none;
+background:url(/ftp/pages/images/okey.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+
+/* 保存按扭 */
+.submit_input{
+border:medium none;
+background:url(img/save.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 新增按扭 */
+.add_input{
+border:medium none;
+background:url(img/add.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 查询按扭 */
+.search_input{
+border:medium none;
+background:url(img/search.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 返回按扭 */
+.comeback_input{
+border:medium none;
+background:url(/ftp/pages/images/back.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 重置按扭 */
+.reset_input{
+border:medium none;
+background:url(/ftp/pages/images/reset.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 关闭按扭 */
+.close_input{
+border:medium none;
+background:url(img/close.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 删除按扭 */
+.delete_input{
+border:medium none;
+background:url(img/delete.gif) no-repeat;
+width:76px;
+height:24px;
+}
+/* 只读背景 */
+.readonly{
+background-color:#EEEEEE; color:#444444	
+}
+/* 隔行变色 */
+tr.t1 td {background-color:#fff;}/* 交替行第一行的背景色 */
+tr.t2 td {background-color:#eee;}/* 交替行第二行的背景色 */
+tr.t3 td {background-color:#ccc;}/* 鼠标经过时的背景色 */
+
+table.tablesorter.header {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;
+	padding-left: 30px;
+	padding-top: 8px;
+	height: auto;
+}
+table.tablesorter.headerSortUp {
+	background-image: url(asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter.headerSortDown {
+	background-image: url(desc.png);
+	background-repeat: no-repeat;
+}

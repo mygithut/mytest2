@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+}
+#all
+{
+	width:1366px;
+	height:820px;
+	position:fixed;
+	margin:0;
+}
+
+#header
+{
+}
+
+.banner
+{
+	background-image:url(../images/new_image/header.png);
+	width:1366px;
+	height:92px;
+}
+
+.lead
+{
+	background-image:url(../images/new_image/leadback.png);
+	width:1366px;
+	height:27px;
+	border:#666 1px solid;
+	font-weight:bold;
+	padding-top:10px;
+	font-size:13px;
+}
+
+.divider
+{
+	height:27px;
+	width:2px;
+	background-image:url(../images/new_image/side.png);
+}
+
+#container
+{
+}
+
+.container_left
+{
+	font-family:"Microsoft YaHei" ! important;
+	width:215px;
+	height:687px;
+	background-image:url(../images/new_image/leftback.png);
+	float:left;
+}
+
+.container_right
+{
+	background-image:url(../images/new_image/conback1.png);
+}
+
+.cr_header
+{
+	width:100%;
+	padding-left:10px;
+	font-size:13px;
+	color:#666;
+	border:#CCC 1px solid;
+	height:32px;
+	line-height:32px;
+	background-image:url(../images/new_image/crheader.png);
+}
+
+.cr_middle
+{
+	margin-left:285px;
+	margin-top:80px;
+}
+
+.middle_header
+{
+	font-size:14px;
+	background:url(../images/new_image/miheader.png) repeat-x top;
+}
+
+.middle_con
+{
+	background-image:url(../images/new_image/middlecon.png);
+	height:180px;
+	width:550px;
+	border:#CCC 1px solid;
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+}
+.enter-input{
+    border:medium none;
+    background:url(../images/new_image/button.png) no-repeat;
+    width:73px;
+    height:27px;
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:2px;
+	padding-top:3px;
+}
+.enter-input2{
+    border:medium none;
+    background:url(../images/new_image/button2.png) no-repeat;
+    width:100px;
+    height:27px;
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:2px;
+	padding-top:3px;
+}
+/* 确定按钮 */
+.okey_input{
+border:medium none;
+background:url(../images/confirm.png) no-repeat;
+width:73px;
+height:27px;
+}
+/* 返回按扭 */
+.comeback_input{
+border:medium none;
+background:url(../images/back.gif) no-repeat;
+width:76px;
+height:24px;
+}
+
+/* 重置按扭 */
+.reset_input{
+border:medium none;
+background:url(../images/reset.png) no-repeat;
+width:76px;
+height:27px;
+}
+.restart
+{
+	font-size:13px;
+	color:#FFF;
+	background-image:url(../images/new_image/button.png);
+	margin-left:80px;
+	width:53px;
+	height:21px;
+	padding-left:18px;
+	padding-top:5px;
+	margin-top:8px;
+}
+
+.middle_footer
+{
+	font-size:13px;
+	margin-top:120px;
+	margin-left:400px;
+	color:#333;
+}
+
+.middle_copy
+{
+	font-size:12px;
+	color:#999;
+	margin-top:7px;
+	margin-left:592px;
+}
+
+a:link
+{
+	text-decoration:none;
+}
+
+/*.container_left a
+{
+	display:inline-block;
+	width:200px;
+	height:30px;
+}
+
+.lead a:hover
+{
+	background-image:url(../images/new_image/leadbutton.png);
+}
+
+.container_left a:hover
+{
+	background-color:#F3F3F3;
+}
